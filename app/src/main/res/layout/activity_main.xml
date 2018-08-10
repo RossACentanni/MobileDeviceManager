@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/CBEnableAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_admin"
+        android:onClick="enableAdmin"/>
+
+    <Button
+        android:id="@+id/BTNLockScreen"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lock_screen"
+        android:onClick="lockScreen"/>
+
+    <Button
+        android:id="@+id/BTNChangePassword"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_device_password"
+        android:onClick="changePassword"/>
+
+    <CheckBox
+        android:id="@+id/CBDisableCameras"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/disable_cameras"
+        android:onClick="disableCameras"/>
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MobileDeviceManager</string>
+    <string name="enable_admin">ENABLE ADMIN</string>
+    <string name="lock_screen">LOCK SCREEN</string>
+    <string name="change_device_password">CHANGE DEVICE PASSWORD</string>
+    <string name="disable_cameras">DISABLE CAMERAS</string>
+    <string name="mobile">Mobile Device Manager</string>
+    <string name="mess">please let me mess around with your stuff</string>
+</resources>
